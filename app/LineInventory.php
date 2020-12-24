@@ -30,9 +30,4 @@ class LineInventory extends Model
     {
         return $this->belongsTo('App\SupplyLine');
     }
-
-    public function inventoryDetail(){
-        return $this->hasMany('App\LineInventoryDetail');
-    }
-
 }

@@ -31,5 +31,8 @@ class PhoneInventory extends Model
         return $this->belongsTo('App\Supply');
     }
 
-   
+    public function inventoryDetail()
+    {
+        return $this->hasMany('App\PhoneInventoryDetail');
+    }
 }

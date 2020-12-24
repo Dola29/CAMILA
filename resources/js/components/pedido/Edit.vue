@@ -95,7 +95,7 @@ export default {
             return new Date(now.getFullYear(), now.getMonth(), now.getDate());
         },
         monto_itbis(){
-            return this.total * 1.8;
+            return this.total * 1.18;
         },
         itbis(){
             return this.total * 0.18;

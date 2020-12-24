@@ -29,6 +29,6 @@ class LineInventoryDetail extends Model
 
     public function inventory()
     {
-        return $this->belongsTo('App\Inventory');
+        return $this->belongsTo('App\LineInventory');
     }
 }
